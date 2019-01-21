@@ -31,6 +31,12 @@ class TestStudent < MiniTest::Test
   # assert_equal("E29", @student_info.set_cohort("E29"))
   end
 
+  #   Create a method that gets the student to talk
+  #    (eg. Returns "I can talk!).
+  def test_i_can_talk
+    assert_equal("I can talk", @student_info.i_can_talk())
+  end
+
   def test_say_favourite
     assert_equal("I love Ruby", @student_info.say_favourite("Ruby"))
   end

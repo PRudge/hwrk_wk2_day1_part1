@@ -28,9 +28,15 @@ class Student
 
   #   Create a method that gets the student to talk
   #    (eg. Returns "I can talk!).
+
   # Create a method that takes in a students favourite
   # programming language and returns it as part of a string
   # (eg. student1.say_favourite_language("Ruby") -> "I love Ruby").
+  def i_can_talk()
+    string = "I can talk"
+    return string
+  end
+
   def say_favourite(fav_lang)
     str = []
     return "I love #{fav_lang}"
