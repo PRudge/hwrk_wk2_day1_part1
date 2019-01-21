@@ -9,7 +9,6 @@ class Student
     @cohort = input_cohort
   end
 
-
   def get_name()
     return @name
   end
@@ -17,5 +16,10 @@ class Student
   def get_cohort()
     return @cohort
   end
+
+  def set_name(new_name)
+    @name = new_name
+  end
+
 
 end
